@@ -68,26 +68,4 @@ namespace BenTheGamer
             Console.ReadKey();
         }
     }
-
 }
-//int iterator = comparer + 1;
-//while (iterator < oredList.Count)
-//{
-//    int diff = 0;
-//    string dec = Convert.ToString(oredList[comparer], 2);
-//    string com = Convert.ToString(oredList[iterator], 2);
-//    for (int m = 0; m < M; m++)
-//    {
-//        if (dec[m] != com[m])
-//        {
-//            diff++;
-//        }
-//    }
-//    long totalCost = cost[oredList[comparer]] + diff * diff; 
-//    if(totalCost< cost[oredList[iterator]])
-//    {
-//        cost[oredList[iterator]] = totalCost;
-//    }
-//    iterator++;
-//}
-//comparer++;
